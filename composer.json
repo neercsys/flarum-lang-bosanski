@@ -1,5 +1,5 @@
 {
-    "name": "neercsys/lang-bosanski",
+    "name": "neercsys/flarum-lang-bosanski",
     "type": "flarum-extension",
     "description": "Bosnian language pack.",
     "keywords": ["locale"],
