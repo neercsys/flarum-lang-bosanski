@@ -10,12 +10,12 @@ Released under the MIT License. Please see the LICENSE file.
 
 ## Installation
 
-via Composer: 
+via Composer:
 composer require neercsys/lang-bosanski
 
 ## Update
 
-via Composer: 
+via Composer:
 composer update
 
 ## Last modified
