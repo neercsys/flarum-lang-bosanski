@@ -9,7 +9,7 @@ Released under the MIT License. Please see the LICENSE file.
 
 # Installation
 
-via Composer: `composer require ahmic/flarum-lang-bosnian`
+via Composer: `composer require neercsys/flarum-lang-bosanski`
 
 # Update
 
