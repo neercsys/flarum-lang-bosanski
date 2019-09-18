@@ -7,11 +7,13 @@ Compatibility:
 
 ## Installation
 
-via Composer: composer require neercsys/lang-bosanski
+via Composer: 
+composer require neercsys/lang-bosanski
 
 ## Update
 
-via Composer: composer update
+via Composer: 
+composer update
 
 ## Last modified
 Zadnja izmjena: 18.09.2019
