@@ -2,7 +2,7 @@
     "name": "neercsys/flarum-lang-bosanski",
     "type": "flarum-extension",
     "description": "Bosnian language pack.",
-    "keywords": ["locale"],
+    "keywords": ["locale","translation","bosanski","bosnian"],
     "license": "MIT",
     "require": {
         "flarum/core": "^0.1.0-beta.9"
