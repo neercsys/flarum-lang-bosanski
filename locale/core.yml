@@ -315,7 +315,7 @@ core:
       sign_up_text: "Nemate račun? <a>Registracija</a>"
       submit_button: => core.ref.log_in
       title: => core.ref.log_in
-      username_or_email_placeholder: Username ili Email
+      username_or_email_placeholder: Korisničko ime ili Email
 
     # These translations are used by the Notifications dropdown, a.k.a. "the bell".
     notifications:
@@ -493,7 +493,7 @@ core:
 
   # Translations in this namespace are used in messages output by the API.
   api:
-    invalid_username_message: "Username može sadržavati samo slova, brojeve i crtice."
+    invalid_username_message: "Korisničko ime može sadržavati samo slova, brojeve i crtice."
 
   # Translations in this namespace are used in emails sent by the forum.
   email:
@@ -580,7 +580,7 @@ core:
     sign_up: Registracija
     some_others: "{count} drugi|{count} drugih"  # Referenced by flarum-likes.yml, flarum-mentions.yml
     start_a_discussion: Nova tema
-    username: Username
+    username: Korisničko ime
     users: Korisnici                                 # Referenced by flarum-statistics.yml
     write_a_reply: Napiši odgovor...
     you: Tebi                                     # Referenced by flarum-likes.yml, flarum-mentions.yml
