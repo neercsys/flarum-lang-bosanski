@@ -13,8 +13,9 @@ Bosnian language for Forum software Flarum
 Released under the MIT License. Please see the LICENSE file.
 
 ### Credits
-BalkanBuzz.net
-[Git](https://github.com/neercsys/flarum-lang-bosanski.git)
+BalkanBuzz.net</br>
+[GitHub](https://github.com/neercsys/flarum-lang-bosanski.git)</br>
+[Packagist](https://packagist.org/packages/neercsys/flarum-lang-bosanski)
 
 ### Installation
 
