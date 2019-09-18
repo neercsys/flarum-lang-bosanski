@@ -7,6 +7,9 @@ Compatibility:
 # License
 Released under the MIT License. Please see the LICENSE file.
 
+# Credits
+BalkanBuzz.net
+
 # Installation
 
 via Composer: `composer require neercsys/flarum-lang-bosanski`
