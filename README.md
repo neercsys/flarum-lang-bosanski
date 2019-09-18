@@ -1,22 +1,19 @@
-# Bosnian Language Pack for Flarum
-
+# Bosnian Language Pack for Flarum 
 Version 1.0
 
 Compatibility:
 - Flarum (Core v0.1.0-beta.9)
 
-## License
+# License
 Released under the MIT License. Please see the LICENSE file.
 
-## Installation
+# Installation
 
-via Composer:
-composer require neercsys/lang-bosanski
+via Composer: `composer require ahmic/flarum-lang-bosnian`
 
-## Update
+# Update
 
-via Composer:
-composer update
+via Composer: `composer update`
 
-## Last modified
+# Last modified
 Zadnja izmjena: 18.09.2019
