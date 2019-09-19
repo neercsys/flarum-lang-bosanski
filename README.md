@@ -3,7 +3,7 @@ Bosnian language for Forum software Flarum
 
 ### Version
 
-- 0.10
+- v0.11
 - Released on September 18, 2019
 
 ### Compatibility:
