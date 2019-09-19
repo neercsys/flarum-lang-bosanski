@@ -26,4 +26,4 @@ via Composer: `composer require neercsys/flarum-lang-bosanski`
 via Composer: `composer update`
 
 ### Last modified
-Zadnja izmjena: 18.09.2019
+Zadnja izmjena: 19.09.2019
