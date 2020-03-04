@@ -107,6 +107,7 @@ core:
       mail_username_label: => core.ref.username
       mailgun_heading: Mailgun Settings
       mandrill_heading: Mandrill Settings
+      not_sending_message: Flarum trenutno ne šalje e-poštu. To može biti zbog odabranog upravljačkog programa ili pogreške u njegovoj konfiguraciji.
       ses_heading: SES Postavke
       smtp_heading: SMTP Postavke
       submit_button: => core.ref.save_changes
