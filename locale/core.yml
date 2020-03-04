@@ -156,6 +156,7 @@ core:
       moderate_heading: Moderacija
       new_group_button: Nova grupa
       participate_heading: Učestvovanje
+      post_without_throttle_label: Odgovorite više puta bez čekanja
       read_heading: Pregled
       rename_discussions_label: Izmjena naziva teme
       reply_to_discussions_label: Odgovaranje na temu
