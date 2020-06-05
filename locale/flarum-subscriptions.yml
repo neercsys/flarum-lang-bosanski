@@ -18,7 +18,7 @@ flarum-subscriptions:
       unfollow_button: Prestani pratiti
       unignore_button: Prestani ignorisati
 
-    # These translations are used on the index page, peripheral to the discussion list.
+    # These translations are used on the page that displays all subscriptions.
     index:
       following_link: => flarum-subscriptions.ref.following
 
@@ -30,7 +30,12 @@ flarum-subscriptions:
     settings:
       follow_after_reply_label: Automatski prati teme na koje sam odgovarao
       notify_new_post_label: Neke postove u temi koju pratim
-
+    
+    # These translations are used in the Settings page.
+    settings:
+      follow_after_reply_label: Automatski pratite diskusije na koje odgovaram
+      notify_new_post_label: Neko objavljuje u diskusiji koju pratim
+      
     # These translations are used in the subscription menu displayed to the right of the post stream.
     sub_controls:
       follow_button: => flarum-subscriptions.ref.follow
