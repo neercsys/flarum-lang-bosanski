@@ -40,6 +40,8 @@ core:
     basics:
       all_discussions_label: => core.ref.all_discussions
       default_language_heading: Zadani jezik
+      display_name_heading: User Display Name
+      display_name_text: Select the driver that should be used for users' display names. By default, the username is shown.
       forum_description_heading: Opis foruma
       forum_description_text: Unesi kratki opis koji opisuje tvoj zajednicu. Ovo će se prikazivati u meta tagovima i u search engineu.
       forum_title_heading: Naslov foruma
@@ -103,14 +105,10 @@ core:
       mail_mandrill_secret_label: Secret key
       mail_password_label: => core.ref.password
       mail_port_label: Port
-      mail_ses_key_label: Key
-      mail_ses_region_label: Region
-      mail_ses_secret_label: Secret
       mail_username_label: => core.ref.username
       mailgun_heading: Mailgun Settings
       mandrill_heading: Mandrill Settings
       not_sending_message: Flarum trenutno ne šalje e-poštu. To može biti zbog odabranog upravljačkog programa ili pogreške u njegovoj konfiguraciji.
-      ses_heading: SES Postavke
       smtp_heading: SMTP Postavke
       submit_button: => core.ref.save_changes
       text: Konfigurirajte upravljački program, postavke i adrese koje će vaš forum koristiti za slanje e-pošte.
@@ -599,10 +597,10 @@ core:
   # Translations in this namespace are used to translate default group names.
   group:
     admin: Admin
-    admins: Admins
+    admins: Administratori
     guest: Gost
     guests: Gosti
     member: Član
     members: Članovi
-    mod: Mod
-    mods: Mods
+    mod: Moderator
+    mods: Moderatori
