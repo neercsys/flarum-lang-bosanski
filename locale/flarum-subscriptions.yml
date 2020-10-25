@@ -23,8 +23,8 @@ flarum-subscriptions:
       meta_title_text: => flarum-subscriptions.ref.following
 
     # These translations are used on the index page, peripheral to the discussion list.
-    index:	    index:
-      following_link: => flarum-subscriptions.ref.following	      following_link: => flarum-subscriptions.ref.following
+    index:
+      following_link: => flarum-subscriptions.ref.following
       
     # These translations are used by the Notifications dropdown, a.k.a. "the bell".
     notifications:
