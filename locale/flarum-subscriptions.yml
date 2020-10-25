@@ -54,11 +54,11 @@ flarum-subscriptions:
     new_post:
       subject: "[New Post] {title}"
       body: |
-        Hey {recipient_display_name}!
+        Pozdrav {recipient_display_name}!
         
-        {poster_display_name} made a post in a discussion you're following: {title}.
+        {poster_display_name} je objavio post u diskusiji koju pratite: {title}.
         
-        To view the new activity, check out the following link:
+        Da biste pogledali novu aktivnost, pogledajte sljedeću poveznicu:
         {url}
         
         ---
@@ -67,7 +67,7 @@ flarum-subscriptions:
         
         ---
         
-        You won't receive any more notifications about this discussion until you're up-to-date.
+        Više nećete primati obavijesti o ovoj raspravi dok ne budete ažurirani.
         
   ##
   # REUSED TRANSLATIONS - These keys should not be used directly in code!
