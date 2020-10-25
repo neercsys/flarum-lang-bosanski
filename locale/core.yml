@@ -41,7 +41,7 @@ core:
       all_discussions_label: => core.ref.all_discussions
       default_language_heading: Zadani jezik
       display_name_heading: Korisničko ime za prikaz
-      display_name_text: Select the driver that should be used for users' display names. By default, the username is shown.
+      display_name_text: Odaberite upravljački program koji će se koristiti za korisnička imena za prikaz. Prema zadanim postavkama prikazuje se korisničko ime.
       forum_description_heading: Opis foruma
       forum_description_text: Unesi kratki opis koji opisuje tvoj zajednicu. Ovo će se prikazivati u meta tagovima i u search engineu.
       forum_title_heading: Naslov foruma
@@ -345,8 +345,8 @@ core:
       delete_button: => core.ref.delete
       delete_confirmation: "Jeste li sigurni da želite zauvijek izbrisati ovaj post? Ova se radnja ne može poništiti."
       delete_forever_button: => core.ref.delete_forever
-      hide_confirmation: "Jeste li sigurni da želite izbrisati taj post?"
       edit_button: => core.ref.edit
+      hide_confirmation: "Jeste li sigurni da želite izbrisati taj post?"
       restore_button: => core.ref.restore
 
     # These translations are used in the scrubber to the right of the post stream.
@@ -417,7 +417,7 @@ core:
     user_controls:
       button: Kontrole
       delete_button: => core.ref.delete
-      delete_confirmation: "Da li siguran da želiš izbrisati ovog korisnika? Postovi ovog korisnika neće biti izbrisani."
+      delete_confirmation: "Jeste li sigurni da želite izbrisati ovog korisnika? Korisnički postovi NEĆE se brisati."
       delete_error_message: "Brisanje korisnika <i>{username} ({email})</i> je neuspješno"
       delete_success_message: "Korisnik <i>{username} ({email})</i> je uspješno obrisan"
       edit_button: => core.ref.edit
@@ -555,11 +555,11 @@ core:
       body: |
         Hey {username}!
         
-        This is a test email to confirm that your Flarum email configuration is working properly.
+        Ovo je testi email da biste potvrdili da vaša konfiguracija email-a Flarum-a radi ispravno.
         
-        If this was you, this email means that your configuration works!
+        Ako ste to bili vi, ovaj email znači da vaša konfiguracija funkcionira!
         
-        If this was not you, please ignore this email.
+        Ako to niste bili vi, zanemarite ovu e-poštu.
         
   ##
   # REUSED TRANSLATIONS - These keys should not be used directly in code!
@@ -579,7 +579,7 @@ core:
     custom_header_title: Izmjeni Custom Header
     delete: Izbriši
     delete_forever: Izbriši trajno
-    discussions: Teme                     # Referenced by flarum-statistics.yml
+    discussions: Teme                            # Referenced by flarum-statistics.yml
     edit: Izmjeni
     email: Email
     icon: Ikona
@@ -592,23 +592,23 @@ core:
     notifications: Notifikacije
     okay: OK                                     # Referenced by flarum-tags.yml
     password: Šifra
-    posts: Postovi                                 # Referenced by flarum-statistics.yml
+    posts: Postovi                               # Referenced by flarum-statistics.yml
     previous_page: Prethodna stranica
     remove: Izbriši
     rename: Preimenuj
-    reply: Odgovori                                 # Referenced by flarum-mentions.yml
+    reply: Odgovori                              # Referenced by flarum-mentions.yml
     reset_your_password: Resetujte šifru
     restore: Povrati
-    save_changes: Snimi izmjene                   # Referenced by flarum-suspend.yml, flarum-tags.yml
+    save_changes: Snimi izmjene                  # Referenced by flarum-suspend.yml, flarum-tags.yml
     settings: Postavke
     sign_up: Registracija
     some_others: "{count} drugi|{count} drugih"  # Referenced by flarum-likes.yml, flarum-mentions.yml
     start_a_discussion: Nova tema
     username: Korisničko ime
-    users: Korisnici                                 # Referenced by flarum-statistics.yml
+    users: Korisnici                             # Referenced by flarum-statistics.yml
     view: View
     write_a_reply: Napiši odgovor...
-    you: Tebi                                     # Referenced by flarum-likes.yml, flarum-mentions.yml
+    you: Tebi                                    # Referenced by flarum-likes.yml, flarum-mentions.yml
 
   ##
   # GROUP NAMES - These keys are translated at the back end.
