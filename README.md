@@ -1,10 +1,9 @@
 # Bosnian Language Pack for [Flarum](http://flarum.org/)
 Bosnian language for Forum software Flarum
+Released on May 07, 2020
 
 ### Version
-
-- v0.13
-- Released on May 07, 2020
+- v0.14
 
 ### Compatibility:
 - Flarum (Core ^0.1.0-beta.13)
@@ -26,4 +25,4 @@ via Composer: `composer require neercsys/flarum-lang-bosanski`
 via Composer: `composer update`
 
 ### Last modified
-Zadnja izmjena: 07.05.2020
+Zadnja izmjena: 25.10.2020
