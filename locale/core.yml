@@ -239,7 +239,7 @@ core:
       discard_confirmation: "Niste postaviti odgovor. Da li želite da ga poništite?"
       posted_message: Vaš odgovor je snimljen.
       submit_button: Snimi odgovor
-      view_button: Pogledaj
+      view_button: => core.ref.view
 
     # These translations are used by the discussion control buttons.
     discussion_controls:
