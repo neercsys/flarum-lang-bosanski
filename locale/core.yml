@@ -110,7 +110,7 @@ core:
       send_test_mail_button: Pošalji
       send_test_mail_heading: Pošalji testni email
       send_test_mail_success: "Probni email uspješno poslana!"
-      send_test_mail_text: "This will send an email using the above configuration to your email, {email}."
+      send_test_mail_text: "Ovo će poslati email pomoću gornje konfiguracije na vašu e-poštu, {email}."
       smtp_heading: SMTP Postavke
       submit_button: => core.ref.save_changes
       text: Konfigurirajte upravljački program, postavke i adrese koje će vaš forum koristiti za slanje e-pošte.
