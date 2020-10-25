@@ -6,7 +6,7 @@ Released on May 07, 2020
 - v0.14
 
 ### Compatibility:
-- Flarum (Core ^0.1.0-beta.13)
+- Flarum (Core ^0.1.0-beta.14)
 
 ### License
 Released under the MIT License. Please see the LICENSE file.
