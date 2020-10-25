@@ -40,7 +40,7 @@ core:
     basics:
       all_discussions_label: => core.ref.all_discussions
       default_language_heading: Zadani jezik
-      display_name_heading: User Display Name
+      display_name_heading: Korisničko ime za prikaz
       display_name_text: Select the driver that should be used for users' display names. By default, the username is shown.
       forum_description_heading: Opis foruma
       forum_description_text: Unesi kratki opis koji opisuje tvoj zajednicu. Ovo će se prikazivati u meta tagovima i u search engineu.
@@ -102,13 +102,15 @@ core:
       mail_mailgun_domain_label: Domen
       mail_mailgun_region_label: Region
       mail_mailgun_secret_label: Secret key
-      mail_mandrill_secret_label: Secret key
       mail_password_label: => core.ref.password
       mail_port_label: Port
       mail_username_label: => core.ref.username
       mailgun_heading: Mailgun Settings
-      mandrill_heading: Mandrill Settings
       not_sending_message: Flarum trenutno ne šalje e-poštu. To može biti zbog odabranog upravljačkog programa ili pogreške u njegovoj konfiguraciji.
+      send_test_mail_button: Pošalji
+      send_test_mail_heading: Pošalji testni email
+      send_test_mail_success: "Probni email uspješno poslana!"
+      send_test_mail_text: "This will send an email using the above configuration to your email, {email}."
       smtp_heading: SMTP Postavke
       submit_button: => core.ref.save_changes
       text: Konfigurirajte upravljački program, postavke i adrese koje će vaš forum koristiti za slanje e-pošte.
@@ -226,8 +228,10 @@ core:
     # These translations are used by the composer when editing a post.
     composer_edit:
       discard_confirmation: "Niste snimili izmjene. Da li želite da ih poništite?"
+      edited_message: Vaše uređivanje je izvršeno.
       post_link: "Post #{number} u {discussion}"
       submit_button: => core.ref.save_changes
+      view_button: => core.ref.view
 
     # These translations are used by the composer when replying to a discussion.
     composer_reply:
@@ -298,6 +302,7 @@ core:
       cannot_start_discussion_button: Ne možete započeti temu.
       mark_all_as_read_confirmation: "Jesi siguran da želiš označiti sve teme kao pročitane?"
       mark_all_as_read_tooltip: => core.ref.mark_all_as_read
+      meta_title_text: => core.ref.all_discussions
       refresh_tooltip: Osvježi
       start_discussion_button: => core.ref.start_a_discussion
 
@@ -432,7 +437,9 @@ core:
 
     # These translations are displayed as error messages.
     error:
+      dependent_extensions_message: "Nije moguće onemogućiti {extension} dok se ne onemoguće sljedeća ovisna proširenja: {extensions}"
       generic_message: "Oops! Nešto je pošlo po zlu. Probajte učitati stranicu ponovo."
+      missing_dependencies_message: "Ne može se omogućiti {extension} dok se ne omoguće sljedeće ovisnosti: {extensions}"
       not_found_message: Zahtjev nije pronađen.
       permission_denied_message: Nemate permisije!
       rate_limit_exceeded_message: Dostigli ste limit. Pokušajte za par sekundi.
@@ -541,7 +548,19 @@ core:
         {url}
 
         Ako ne želiš da mjenjaš šifru, ignoriši ovaj email i ništa se neće desiti.
-
+        
+    # These translations are used when testing mailing configuration
+    send_test:
+      subject: Flarum Email Test
+      body: |
+        Hey {username}!
+        
+        This is a test email to confirm that your Flarum email configuration is working properly.
+        
+        If this was you, this email means that your configuration works!
+        
+        If this was not you, please ignore this email.
+        
   ##
   # REUSED TRANSLATIONS - These keys should not be used directly in code!
   ##
@@ -587,6 +606,7 @@ core:
     start_a_discussion: Nova tema
     username: Korisničko ime
     users: Korisnici                                 # Referenced by flarum-statistics.yml
+    view: View
     write_a_reply: Napiši odgovor...
     you: Tebi                                     # Referenced by flarum-likes.yml, flarum-mentions.yml
 
