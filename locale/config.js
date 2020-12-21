@@ -1,4 +1,4 @@
-// Bosnian day.js from https://github.com/iamkun/dayjs/blob/dev/src/locale/sr.js
+// Bosnian day.js from https://github.com/iamkun/dayjs/blob/dev/src/locale/bs.js
 // All credits belong to contributors from GitHub
 
 const translator = {
