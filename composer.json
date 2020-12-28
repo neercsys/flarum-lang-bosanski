@@ -1,13 +1,14 @@
 {
     "name": "neercsys/flarum-lang-bosanski",
+	"description": "Bosnian language pack.",
     "type": "flarum-extension",
-    "description": "Bosnian language pack.",
     "keywords": ["locale","translation","bosanski","bosnian"],
     "license": "MIT",
     "authors": [
         {
             "name": "Nermin(nera)",
             "email": "neercsys@gmail.com"
+			"homepage": "https://diskusije.balkanbuzz.net"
         }
     ],
     "support": {
